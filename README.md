@@ -9,5 +9,5 @@ Ensure that location services is enabled on your Windows device. Information and
 After cloning this repository, right click on welcome.ps1 and select "Run with Powershell".
 
 ## References
-Geolocation gathering by [colsw](https://stackoverflow.com/a/46287884)
-User information gathering by [TheCleaner](https://serverfault.com/a/582710)
+-Geolocation gathering by [colsw](https://stackoverflow.com/a/46287884)
+-User information gathering by [TheCleaner](https://serverfault.com/a/582710)
