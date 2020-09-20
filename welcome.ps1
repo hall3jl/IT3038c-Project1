@@ -45,12 +45,12 @@ $CurrentDetailedForecast=$CurrentForecast.detailedForecast
 
 #Get user information
 #Command provided by TheCleaner from StackOverflow @ https://serverfault.com/a/582710
-$UserFullName=Get-WMIObject Win32_UserAccount | where caption -like *\$env:USERNAME | Select-Object -ExpandProperty FullName
+#$UserFullName=Get-WMIObject Win32_UserAccount | where caption -like *\$env:USERNAME | Select-Object -ExpandProperty FullName
 
 #Get date and time information
 $Date=Get-Date -Format "dddd, MMMM dd, yyyy"
 $Time=Get-Date -Format "h:mtt"
 
 #Write greeting to user
-$Message="Hello, $UserFullName. Today is $Date. The time is $Time.`r`nThe weather forecast $CurrentWeatherPeriod in $City, $State is $CurrentDetailedForecast"
+$Message="Hello, $env:USERNAME. Today is $Date. The time is $Time.`r`nThe weather forecast $CurrentWeatherPeriod in $City, $State is $CurrentDetailedForecast"
 [System.Windows.MessageBox]::Show("$Message", "Greetings", "Ok", "Information")
