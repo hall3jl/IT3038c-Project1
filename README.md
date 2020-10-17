@@ -10,5 +10,4 @@ After cloning this repository, right click on welcome.ps1 and select "Run with P
 
 ## References
 - Geolocation gathering by [colsw](https://stackoverflow.com/a/46287884)
-- User information gathering by [PoshGUI](https://poshgui.com/)
-- Downloading and displaying image from memory by [JRV](https://social.technet.microsoft.com/Forums/windowsserver/en-US/b11d845c-ff6a-4b44-adec-47d56b40fa1e/get-base64-encoded-string-of-a-web-image?forum=winserverpowershell) & [Kae](https://www.alkanesolutions.co.uk/2013/04/19/embedding-base64-image-strings-inside-a-powershell-application/)
+- User information gathering by [TheCleaner](https://serverfault.com/a/582710)
