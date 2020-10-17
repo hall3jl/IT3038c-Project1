@@ -1,4 +1,4 @@
-# IT3038c-Project1
+# IT3038c-Project2
 
 ## Description
 The purpose of this script is to display a simple greeting to the user. Upon running the script a message box will greet the user by name, give them the current time, and display the current weather conditions.
